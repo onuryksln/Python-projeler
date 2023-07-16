@@ -504,46 +504,7 @@ while 1 :
 
 
 
-##    a, b = screen.get_size() # size bilgisi
-##    print('a,b',a,b) 
 
-
-
-"""
-# kare yılan bası için
-def random_snake_location(): #50,37 sınır kare sayılari snake için
-    global x_x,y_y
-    ax = random.randint(0, int((width-20)/20)-1 )
-    by = random.randint(0, int((height-20)/20)-1 )
-    x_x = 0.6 + ax
-    y_y = 0.6 + by
-    #print('ax,by',int((width-20)/20),int((height-20)/20))
-"""
-
-
-
-"""
-def snake_bait(): 
-    global score,speed1
-    # snake ile enemy konumları çakıştı mı kontrol ve skor oluşturma
-    # snake - x,y 20 ekle , x ve y başlangıc konumları
-    # x*20 ve y*20 snake başlangıc konumları
-    # enemy ax ve by merkez konumları 10 cıkar 10 topla toplam alan bulunur
-    change_bait = 0
-    # yem yeme kısmı
-    if x_x*20 < c_memory_enemy[0] < x_x*20 + 20 and y_y*20 < c_memory_enemy[1] < y_y*20 + 20:
-        score += 1
-        random_enemy_location()
-        #if score%10 == 0 and 9 < score < 41:
-        #    speed1 = speed1 - 0.030
-        if score%5 == 0 and 4 < score < 16:
-            speed1 = speed1 - 0.020
-            
-    #print('score = ',score)
-    return change_bait
-
-
-"""
 
 
 
